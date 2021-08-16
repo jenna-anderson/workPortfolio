@@ -2423,6 +2423,12 @@ input, select, textarea {
 			display: block;
 		}
 
+		.app-images {
+			width: 200px;
+			height: 450px;
+			object-fit: cover;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
