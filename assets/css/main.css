@@ -371,6 +371,18 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.badge {
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		border-bottom: none;
+	}
+
+	.credentials {
+		display: flex;
+		justify-content: right;
+	}
+
 /* Row */
 
 	.row {
@@ -3689,7 +3701,7 @@ input, select, textarea {
 		.wrapper .inner {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
-			width: 55em;
+			width: 59em;
 		}
 
 		.techStackColWrapper {
